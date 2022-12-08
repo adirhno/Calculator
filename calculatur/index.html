@@ -1,0 +1,56 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./calculator.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="resultScreen" id="result" value=""></div>
+      <div class="operators">
+        <button class="opBtn" value="+" id="+">+</button>
+        <button class="opBtn" value="-" id="-">-</button>
+        <button class="opBtn" value="*" id="X">X</button>
+        <button class="opBtn" value="/" id="/">/</button>
+      </div>
+
+      <div class="buttons">
+        <div class="rows">
+          <div class="row2">
+            <button class="numBtn" value="7" id="7">7</button>
+            <button class="numBtn" value="8" id="8">8</button>
+            <button class="numBtn" value="9" id="9">9</button>
+          </div>
+
+          <div class="row3">
+            <button class="numBtn" value="4" id="4">4</button>
+            <button class="numBtn" value="5" id="5">5</button>
+            <button class="numBtn" value="6" id="6">6</button>
+          </div>
+
+          <div class="row4">
+            <button class="numBtn" value="1" id="1">1</button>
+            <button class="numBtn" value="2" id="2">2</button>
+            <button class="numBtn" value="3" id="3">3</button>
+          </div>
+
+          <div class="row5">
+            <button id="dot" class="numBtn" value=".">.</button>
+            <button class="numBtn" value="0">0</button>
+            <button id="clrBtn" class="btn">AC</button>
+          </div>
+        </div>
+        <div>
+          <button id="equal" class="equal btn">=</button>
+          <button id="backSp">CLR</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./calculator.js"></script>
+</html>

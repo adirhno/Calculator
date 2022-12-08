@@ -1,0 +1,74 @@
+/** @format */
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url(../images/image1.png);
+  margin-top: 30px;
+}
+
+.resultScreen {
+  background-image: url(../images/image2.jpg);
+  width: 287px;
+  height: 35px;
+  border-radius: 4px;
+  border: solid black;
+  padding: 4px;
+  margin: 5px;
+}
+
+button {
+  width: 73px;
+  height: 68px;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+  width: 310px;
+  height: 100%;
+  border-radius: 5px;
+  border: 3px solid black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 14px;
+}
+
+.equal {
+  height: 73.5%;
+  background-color: rgb(50, 89, 219);
+}
+
+.operators {
+  justify-content: center;
+}
+
+.operators, .row2, .row3, .row4, .row5 {
+  width: 100%;
+  display: flex;
+}
+
+.rows button {
+  background-color: rgb(226, 119, 43);
+}
+
+button:hover {
+  background-color: rgb(180, 180, 194);
+  cursor: pointer;
+}
+
+.operators button:hover {
+  background-color: rgb(216, 177, 148);
+}
+
+.rows button:hover {
+  background-color: rgb(216, 177, 148);
+}
+
+.operators button {
+  background-color: bisque;
+}
